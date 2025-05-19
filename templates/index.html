@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RCM Informática - Especialistas em sistemas de telemetria e assinatura eletrônica para otimizar seus processos e aumentar a segurança digital.">
+    <meta name="keywords" content="telemetria, assinatura eletrônica, desenvolvimento de sistemas, automação, RCM Informática">
+    <meta name="author" content="RCM Informática">
+    
+    <title>RCM Informática - Soluções em Telemetria e Assinatura Eletrônica</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">RCM <span>Informática</span></div>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Soluções Tecnológicas para o seu Negócio</h1>
+            <p>Especialistas em sistemas de telemetria e assinatura eletrônica para otimizar seus processos e aumentar a segurança digital.</p>
+            <a href="#contato" class="btn">Fale Conosco</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicos">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Nossos Serviços</h2>
+                <p>Soluções personalizadas para atender às necessidades específicas do seu negócio</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Telemetria</h3>
+                    <p>Sistemas avançados de coleta e análise de dados remotos, permitindo monitoramento em tempo real e tomada de decisões baseada em informações precisas.</p>
+                    <a href="#contato">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-signature"></i>
+                    </div>
+                    <h3>Assinatura Eletrônica</h3>
+                    <p>Soluções seguras e legalmente válidas para assinatura digital de documentos, agilizando processos e reduzindo custos operacionais.</p>
+                    <a href="#contato">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Desenvolvimento de Sistemas</h3>
+                    <p>Criação de sistemas personalizados que automatizam processos e aumentam a eficiência operacional da sua empresa.</p>
+                    <a href="#contato">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Sobre Nós</h2>
+                <p>Conheça a RCM Informática e nossa história</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image animate-on-scroll">
+                    <img src="https://pixabay.com/get/g27f00c52206a2779de8522f6023d231d4e2fd7ba521d3aa6a921b90d1832d0c4fbd45bad098b66745396e98f47d2ccc3c28d8869fcb26a1de69f2032606b2cb6_1280.jpg" alt="RCM Informática Escritório">
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <h3>RCM Informática</h3>
+                    <p>Somos uma empresa especializada em desenvolvimento de sistemas, com foco em soluções de telemetria e assinatura eletrônica. Nosso compromisso é fornecer tecnologias inovadoras que otimizem os processos dos nossos clientes.</p>
+                    <p>Com anos de experiência no mercado, a RCM Informática se destaca pela qualidade dos serviços prestados e pelo atendimento personalizado, sempre buscando entender as necessidades específicas de cada cliente para oferecer a melhor solução.</p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Inovação Tecnológica</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Excelência em Atendimento</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Soluções Personalizadas</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Segurança de Dados</span>
+                        </div>
+                    </div>
+                    <p class="mb-0"><strong>CNPJ:</strong> 11.649.749/0001-45</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="depoimentos">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Depoimentos</h2>
+                <p>O que nossos clientes dizem sobre nós</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Implementamos o sistema de telemetria da RCM Informática e conseguimos reduzir nossos custos operacionais em 30%. O monitoramento em tempo real nos permite tomar decisões mais rápidas e eficientes."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Carlos Oliveira</h4>
+                            <p>Diretor de Operações, TechSolutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item" style="display: none;">
+                    <div class="testimonial-content">
+                        <p>"A solução de assinatura eletrônica da RCM revolucionou nossos processos internos. Conseguimos reduzir o tempo de fechamento de contratos de 5 dias para apenas algumas horas. Altamente recomendado!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Ana Maria Silva</h4>
+                            <p>Gerente Jurídica, Construtora Horizonte</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item" style="display: none;">
+                    <div class="testimonial-content">
+                        <p>"A equipe da RCM Informática é extremamente competente e atenciosa. Desenvolveram um sistema personalizado que atendeu perfeitamente às nossas necessidades. O suporte técnico é rápido e eficiente."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Roberto Mendes</h4>
+                            <p>CEO, Logística Express</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Clients Section -->
+    <section class="clients">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Nossos Clientes</h2>
+                <p>Empresas que confiam em nossas soluções</p>
+            </div>
+            <div class="clients-grid animate-on-scroll">
+                <div class="client-logo">
+                    <svg width="120" height="60" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="20" width="100" height="20" rx="5" fill="#0056b3"/>
+                        <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial" font-size="12">EMPRESA A</text>
+                    </svg>
+                </div>
+                <div class="client-logo">
+                    <svg width="120" height="60" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="60" cy="30" r="25" fill="#17a2b8"/>
+                        <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial" font-size="12">EMPRESA B</text>
+                    </svg>
+                </div>
+                <div class="client-logo">
+                    <svg width="120" height="60" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg">
+                        <polygon points="30,10 90,10 110,30 90,50 30,50 10,30" fill="#003366"/>
+                        <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial" font-size="12">EMPRESA C</text>
+                    </svg>
+                </div>
+                <div class="client-logo">
+                    <svg width="120" height="60" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="10" width="100" height="40" fill="#343a40"/>
+                        <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial" font-size="12">EMPRESA D</text>
+                    </svg>
+                </div>
+                <div class="client-logo">
+                    <svg width="120" height="60" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="60" cy="30" rx="50" ry="20" fill="#0056b3"/>
+                        <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial" font-size="12">EMPRESA E</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Perguntas Frequentes</h2>
+                <p>Respostas para as dúvidas mais comuns</p>
+            </div>
+            <div class="faq-container animate-on-scroll">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>O que é um sistema de telemetria?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Um sistema de telemetria é uma tecnologia que permite a coleta, transmissão e monitoramento de dados remotamente. É amplamente utilizado para monitorar equipamentos, veículos, dispositivos médicos, entre outros, fornecendo informações em tempo real que ajudam na tomada de decisões e na otimização de processos.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como funciona a assinatura eletrônica? É legalmente válida?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A assinatura eletrônica é um método de autenticação digital que substitui a assinatura manuscrita em documentos. No Brasil, ela é regulamentada pela Lei 14.063/2020 e possui validade jurídica. Existem diferentes tipos de assinatura eletrônica, com níveis variados de segurança, adequados para diferentes tipos de documentos e processos.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quanto tempo leva para implementar um sistema personalizado?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O tempo de implementação varia de acordo com a complexidade do sistema e as necessidades específicas do cliente. Em média, projetos mais simples podem levar de 2 a 3 meses, enquanto projetos mais complexos podem levar de 6 meses a 1 ano. Durante a fase de planejamento, fornecemos um cronograma detalhado com prazos e marcos do projeto.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Vocês oferecem suporte técnico após a implementação do sistema?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, oferecemos suporte técnico contínuo para todos os nossos sistemas. Temos diferentes planos de suporte, incluindo assistência 24/7, manutenção preventiva, atualizações de segurança e upgrades de funcionalidades. Nosso objetivo é garantir que o sistema continue funcionando perfeitamente e evoluindo de acordo com as necessidades do seu negócio.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como é feita a integração com sistemas já existentes na empresa?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nossa equipe técnica realiza uma análise detalhada dos sistemas existentes e desenvolve conectores e APIs personalizados para garantir uma integração perfeita. Trabalhamos com uma ampla variedade de tecnologias e protocolos, o que nos permite integrar com praticamente qualquer sistema, seja ele legado ou moderno, local ou na nuvem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco para saber mais sobre nossos serviços</p>
+            </div>
+            <div class="contact-info animate-on-scroll">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Telefone</h3>
+                    <p>(11) 99999-9999</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>E-mail</h3>
+                    <p><a href="mailto:contato@rcminformatica.com.br">contato@rcminformatica.com.br</a></p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Endereço</h3>
+                    <p>Osasco, São Paulo - SP</p>
+                </div>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-form-container animate-on-scroll">
+                    <div class="form-message"></div>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" placeholder="Seu nome completo">
+                            <div class="error-message">Por favor, informe seu nome</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="Seu melhor e-mail">
+                            <div class="error-message">Por favor, informe um e-mail válido</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone (opcional)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Seu telefone para contato">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" placeholder="Como podemos ajudar?"></textarea>
+                            <div class="error-message">Por favor, escreva sua mensagem</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+                
+                <div class="contact-image animate-on-scroll">
+                    <img src="https://pixabay.com/get/g36d519214e38c41cf09ebf20ccab42eea4077b5f4289da476e60e1342c0a0ce2239ad20237ee835db4e2f5f7f5eaa6874ec0777be8909dc6f1b78ef20d383869_1280.jpg" alt="Suporte técnico RCM Informática" style="width: 100%; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58542.93349370034!2d-46.819167774401285!3d-23.53290312277878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5584850d8b9d%3A0xc5ae92f7c8f40888!2sOsasco%2C%20State%20of%20S%C3%A3o%20Paulo!5e0!3m2!1sen!2sbr!4v1683800548811!5m2!1sen!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>RCM Informática</h3>
+                    <p>Especialistas em sistemas de telemetria e assinatura eletrônica para otimizar seus processos e aumentar a segurança digital.</p>
+                    <p>CNPJ: 11.649.749/0001-45</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio"><i class="fas fa-chevron-right"></i> Início</a></li>
+                        <li><a href="#servicos"><i class="fas fa-chevron-right"></i> Serviços</a></li>
+                        <li><a href="#sobre"><i class="fas fa-chevron-right"></i> Sobre Nós</a></li>
+                        <li><a href="#depoimentos"><i class="fas fa-chevron-right"></i> Depoimentos</a></li>
+                        <li><a href="#faq"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                        <li><a href="#contato"><i class="fas fa-chevron-right"></i> Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Nossos Serviços</h3>
+                    <ul class="footer-links">
+                        <li><a href="#servicos"><i class="fas fa-chevron-right"></i> Telemetria</a></li>
+                        <li><a href="#servicos"><i class="fas fa-chevron-right"></i> Assinatura Eletrônica</a></li>
+                        <li><a href="#servicos"><i class="fas fa-chevron-right"></i> Desenvolvimento de Sistemas</a></li>
+                        <li><a href="#servicos"><i class="fas fa-chevron-right"></i> Automação de Processos</a></li>
+                        <li><a href="#servicos"><i class="fas fa-chevron-right"></i> Consultoria em TI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <ul class="footer-links">
+                        <li><a href="tel:+5511999999999"><i class="fas fa-phone-alt"></i> (11) 99999-9999</a></li>
+                        <li><a href="mailto:contato@rcminformatica.com.br"><i class="fas fa-envelope"></i> contato@rcminformatica.com.br</a></li>
+                        <li><a href="#map"><i class="fas fa-map-marker-alt"></i> Osasco, São Paulo - SP</a></li>
+                        <li><a href="#contato"><i class="fas fa-clock"></i> Seg - Sex: 9:00 - 18:00</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 RCM Informática. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Custom JavaScript -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
