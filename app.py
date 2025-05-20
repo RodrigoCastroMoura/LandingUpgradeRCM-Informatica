@@ -3,9 +3,11 @@ import logging
 from flask import Flask, render_template, request, jsonify
 
 # Setup logging
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 # Create the Flask app
+logger.info("Starting RCM Informática web application")
 app = Flask(__name__)
 app.secret_key = os.environ.get("SESSION_SECRET", "rcm-informatica-secret-key")
 
