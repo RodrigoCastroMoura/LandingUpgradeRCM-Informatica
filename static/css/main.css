@@ -164,7 +164,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: url('https://pixabay.com/get/g08edb7d1332dcfff6df9c0636287a61b4f51e0adb0358dd7de354bf60d64b6108398f8aff9d4ce0f3dcae214af7870e97c76c8eb151ae2546bbe1fe467aa594e_1280.jpg') center/cover;
+    background: url('../images/hero-bg.jpg') center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
